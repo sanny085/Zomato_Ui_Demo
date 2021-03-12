@@ -18,8 +18,6 @@ import {Avatar} from 'react-native-paper';
 
 
 
-
-
 const switchNavigator=createSwitchNavigator({
   x:createMaterialBottomTabNavigator({
   Order: { screen: HomeScreen,  
@@ -80,9 +78,7 @@ const switchNavigator=createSwitchNavigator({
  
 })
 
-               
-
-
+           
 const App=createAppContainer(switchNavigator);
 
 export default ()=>{     
